@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+  
+  
+  
+  
+   <html class="no-js"> 
+
+  <head lang="en-us">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>Getting Started - XDK LIVE</title>
+    <meta name="generator" content="Hugo 0.31.1" />
+
+    
+    <meta name="description" content="The documentation of the XDK LIVE language.">
+    
+    <link rel="canonical" href="../getting-started/">
+    
+
+    <meta property="og:url" content="/getting-started/">
+    <meta property="og:title" content="XDK LIVE">
+    <meta property="og:image" content="/images/logo.png">
+    <meta name="apple-mobile-web-app-title" content="XDK LIVE">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+
+    <style>
+      @font-face {
+        font-family: 'Icon';
+        src: url('/fonts/icon.eot');
+        src: url('/fonts/icon.eot')
+               format('embedded-opentype'),
+             url('/fonts/icon.woff')
+               format('woff'),
+             url('/fonts/icon.ttf')
+               format('truetype'),
+             url('/fonts/icon.svg')
+               format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <link rel="stylesheet" href="../stylesheets/application.css">
+    <link rel="stylesheet" href="../stylesheets/temporary.css">
+    <link rel="stylesheet" href="../stylesheets/palettes.css">
+    <link rel="stylesheet" href="../stylesheets/highlight/highlight.css">
+
+    
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu&#43;Mono">
+    <style>
+      body, input {
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+      }
+      pre, code {
+        font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+      }
+    </style>
+
+    
+    <script src="../javascripts/modernizr.js"></script>
+
+    
+
+  </head>
+  <body class="palette-primary-yellow palette-accent-teal">
+
+
+
+
+<div class="backdrop">
+	<div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+	<nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        Getting Started
+      </div>
+    </div>
+
+    
+
+    
+    
+        
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+	<div class="drawer">
+		<nav aria-label="Navigation">
+  <a href="../" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="../images/logo.png">
+        </div>
+      
+      <div class="name">
+        <strong>XDK LIVE </strong>
+        
+      </div>
+    </div>
+  </a>
+
+  <div class="scrollable">
+    <div class="wrapper">
+      
+
+      <div class="toc">
+        
+        <ul>
+          
+
+
+
+
+<li>
+  
+    
+
+
+
+<a class="current" title="Getting Started" href="../getting-started/">
+	
+	Getting Started
+</a>
+
+
+<ul id="scrollspy">
+</ul>
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Concepts" href="../concepts/">
+	
+	Concepts
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    <span class="section">Language</span>
+    <ul>
+      
+        
+        
+
+
+
+<a  title="Introduction" href="../language/">
+	
+	Introduction
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Basics" href="../language/basics.html">
+	
+	Basics
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Packages" href="../language/packages.html">
+	
+	Packages
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="System Setup" href="../language/setup.html">
+	
+	System Setup
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Types" href="../language/types.html">
+	
+	Types
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Arrays" href="../language/arrays.html">
+	
+	Arrays
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Functions" href="../language/functions.html">
+	
+	Functions
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Foreign Function Interface" href="../language/foreignfunctioninterface.html">
+	
+	Foreign Function Interface
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Events" href="../language/events.html">
+	
+	Events
+</a>
+
+
+
+      
+        
+        
+
+
+
+<a  title="Exceptions" href="../language/exceptions.html">
+	
+	Exceptions
+</a>
+
+
+
+      
+    </ul>
+  
+</li>
+
+
+
+<li>
+  
+    <span class="section">Platforms</span>
+    <ul>
+      
+        
+        
+
+
+
+<a  title="XDK110" href="../platforms/xdk110.html">
+	
+	XDK110
+</a>
+
+
+
+      
+    </ul>
+  
+</li>
+
+
+        </ul>
+        
+
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+	</div>
+
+	<article class="article">
+		<div class="wrapper">
+			<h1>Getting Started </h1>
+
+			
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>All you need is the XDK Workbench beta release which you can find in the <a href="../download.html">download section</a>.</p>
+
+<h2 id="create-a-new-project">Create a new project</h2>
+
+<p>To create a new XDK LIVE project use the Eclipse <em>New Project</em> wizard which you&rsquo;ll find in the menu under <em>File</em> → <em>New</em> → <em>Project</em>. Select the <em>XDK LIVE Project</em> wizard from the <em>XDK</em> category and hit <em>Next</em>.</p>
+
+<p><img src="newProjectWizard.png" alt="Example image" /></p>
+
+<h2 id="our-first-program">Our first program</h2>
+
+<p>The default template prints &ldquo;Hello World&rdquo; every time the button one is pressed. While that&rsquo;s fun, it&rsquo;s not particularly useful. Let&rsquo;s build something more exciting: a shock detector.
+The first thing to learn is that auto-complete is very handy when writing XDK LIVE code. At any point feel free to press <code>Ctrl+Space</code> (<code>Cmd+Space</code> on a Mac) and chances are you&rsquo;ll find what you were looking for.</p>
+
+<h3 id="handling-events">Handling events</h3>
+
+<p>Let&rsquo;s replace what&rsquo;s currently in <code>application.x</code> with the code below (no worries, we&rsquo;ll go through it in detail)</p>
+<div class="highlight"><pre class="chroma"><code class="language-TypeScript" data-lang="TypeScript"><span class="nx">every</span> <span class="mi">100</span> <span class="nx">milliseconds</span> <span class="p">{</span>
+    <span class="k">if</span><span class="p">(</span><span class="nx">accelerometer</span><span class="p">.</span><span class="nx">magnitude</span><span class="p">.</span><span class="nx">read</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">5000</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// shock detected: do something useful
+</span><span class="c1"></span>    <span class="p">}</span>
+<span class="p">}</span></code></pre></div>
+<p>At the core of XDK LIVE are events which enable you to react to things happening around you. There&rsquo;s a wide range of events available. Go ahead, place your cursor after the  <code>every</code> keyword and hit auto-complete to see what events are available.</p>
+
+<p>The code above uses time as event. Every 100 milliseconds we check if a sensor value (the magnitude of the acceleration vector) is greater than some threshold. Notice how you didn&rsquo;t have to setup a timer or the sensor that you&rsquo;re using.</p>
+
+<h3 id="using-connectivity">Using connectivity</h3>
+
+<p>Next we need to connect our shock detector to the rest of the world. This time we&rsquo;ll use Bluetooth Low Energy (BLE). In XDK LIVE you can set up connectivities using the <code>setup</code> keyword, for example:</p>
+<div class="highlight"><pre class="chroma"><code class="language-TypeScript" data-lang="TypeScript"><span class="nx">setup</span> <span class="nx">smartphone</span> : <span class="kt">BLE</span> <span class="p">{</span>
+    <span class="c1">// configuration goes here
+</span><span class="c1"></span><span class="p">}</span></code></pre></div>
+<p>This code creates a <em>BLE</em> connectivity which we name <em>smartphone</em>. Inside this <code>setup</code> block we can configure the Bluetooth connectivity, e.g. give the device a name or set the advertising interval. To find out what you can configure, use the auto-complete functionality.</p>
+<div class="highlight"><pre class="chroma"><code class="language-TypeScript" data-lang="TypeScript"><span class="nx">setup</span> <span class="nx">smartphone</span> : <span class="kt">BLE</span> <span class="p">{</span>
+    <span class="nx">deviceName</span> <span class="o">=</span> <span class="s2">&#34;MyDeviceName&#34;</span><span class="p">;</span>
+    <span class="nx">advertisingInterval</span> <span class="o">=</span> <span class="mi">2000</span><span class="p">;</span> <span class="c1">// in milliseconds
+</span><span class="c1"></span><span class="p">}</span></code></pre></div>
+<p>Lastly we want to send out some data, in this case a boolean flag that a shock was detected. To this end setup blocks support so called <em>variable configuration items</em> (which sound more complicated than they really are). Have a look at the code below to see what they do:</p>
+<div class="highlight"><pre class="chroma"><code class="language-TypeScript" data-lang="TypeScript"><span class="nx">setup</span> <span class="nx">smartphone</span> : <span class="kt">BLE</span> <span class="p">{</span>
+    <span class="nx">deviceName</span> <span class="o">=</span> <span class="s2">&#34;MyDeviceName&#34;</span><span class="p">;</span>
+    <span class="nx">advertisingInterval</span> <span class="o">=</span> <span class="mi">2000</span><span class="p">;</span> <span class="c1">// in milliseconds
+</span><span class="c1"></span>
+    <span class="kd">var</span> <span class="nx">shockDetected</span> <span class="o">=</span> <span class="nx">bool_characteristic</span><span class="p">(</span><span class="nx">UUID</span><span class="o">=</span><span class="mh">0xCAFE</span><span class="p">);</span>
+<span class="p">}</span></code></pre></div>
+<p>Each type of connectivity (BLE, WLAN, LWM2M, &hellip;) comes with their own <em>variable configuration items</em>. In this case BLE offers the <code>bool_characteristic</code> function to declare a BLE characteristic which transmits a boolean value. Other functions declaring different types of BLE characteristics are also available. Again, to find out what you can do here, place your cursor after the <code>=</code> sign past shockDetected and hit auto-complete.</p>
+
+<h3 id="putting-things-together">Putting things together</h3>
+<div class="highlight"><pre class="chroma"><code class="language-TypeScript" data-lang="TypeScript"><span class="nx">setup</span> <span class="nx">smartphone</span> : <span class="kt">BLE</span> <span class="p">{</span>
+    <span class="nx">deviceName</span> <span class="o">=</span> <span class="s2">&#34;MyDeviceName&#34;</span><span class="p">;</span>
+    <span class="nx">advertisingInterval</span> <span class="o">=</span> <span class="mi">2000</span><span class="p">;</span> <span class="c1">// in milliseconds
+</span><span class="c1"></span>
+    <span class="kd">var</span> <span class="nx">shockDetected</span> <span class="o">=</span> <span class="nx">bool_characteristic</span><span class="p">(</span><span class="nx">UUID</span><span class="o">=</span><span class="mh">0xCAFE</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nx">every</span> <span class="mi">100</span> <span class="nx">milliseconds</span> <span class="p">{</span>
+    <span class="k">if</span><span class="p">(</span><span class="nx">accelerometer</span><span class="p">.</span><span class="nx">magnitude</span><span class="p">.</span><span class="nx">read</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">5000</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">smartphone</span><span class="p">.</span><span class="nx">shockDetected</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span></code></pre></div>
+<p>The <code>shockDetected</code> signal we just created in <em>smartphone</em> can be used like a variable. In this case, if we want to notify users via Bluetooth, just set <code>smartphone.shockDetected</code> to true or false.</p>
+
+<h2 id="flash-and-enjoy">Flash and enjoy</h2>
+
+<p>Once you hit <em>Save</em> XDK LIVE will generate the C code which implements this program. The C code will automatically be compiled and is ready to be flashed.
+Click on the <em>Flash</em> button (much like you would with a normal XDK program) to upload the program to the connected XDK device.</p>
+
+<p>This was just the beginning. Play around with the <a href="../platforms/xdk110.html">events, sensor values and connectivities</a> offered by XDK LIVE.</p>
+
+
+			<aside class="copyright" role="note">
+				
+				&copy; 2018 Bosch Connected Devices and Solutions GmbH &ndash;
+				
+				Documentation built with
+				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
+				using the
+				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+			</aside>
+
+			<footer class="footer">
+				
+
+<nav class="pagination" aria-label="Footer">
+  <div class="previous">
+  
+      <a href="../language/basics.html" title="Basics">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              Basics
+            </div>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+
+  <div class="next">
+  
+      <a href="../language/packages.html" title="Packages">
+        <span class="direction">
+          Next
+        </span>
+        <div class="page">
+          <div class="stretch">
+            <div class="title">
+              Packages
+            </div>
+          </div>
+          <div class="button button-next" role="button" aria-label="Next">
+            <i class="icon icon-forward"></i>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+</nav>
+
+
+
+
+
+			</footer>
+		</div>
+	</article>
+
+	<div class="results" role="status" aria-live="polite">
+		<div class="scrollable">
+			<div class="wrapper">
+				<div class="meta"></div>
+				<div class="list"></div>
+			</div>
+		</div>
+	</div>
+</main>
+
+    <script>
+    
+      var base_url = '';
+      var repo_id  = '';
+    
+    </script>
+
+    <script src="../javascripts/application.js"></script>
+    
+
+    <script>
+      /* Add headers to scrollspy */
+      var headers   = document.getElementsByTagName("h2");
+      var scrollspy = document.getElementById('scrollspy');
+
+      if(scrollspy) {
+        if(headers.length > 0) {
+          for(var i = 0; i < headers.length; i++) {
+            var li = document.createElement("li");
+            li.setAttribute("class", "anchor");
+
+            var a  = document.createElement("a");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", headers[i].innerHTML);
+            a.innerHTML = headers[i].innerHTML;
+
+            li.appendChild(a)
+            scrollspy.appendChild(li);
+          }
+        } else {
+          scrollspy.parentElement.removeChild(scrollspy)
+        }
+
+
+        /* Add permanent link next to the headers */
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for(var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link")
+            a.innerHTML = "#";
+            headers[i].appendChild(a);
+        }
+      }
+    </script>
+
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+

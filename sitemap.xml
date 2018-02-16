@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/language/</loc>
+  </url>
+  
+  <url>
+    <loc>/language/basics.html</loc>
+  </url>
+  
+  <url>
+    <loc>/getting-started/</loc>
+  </url>
+  
+  <url>
+    <loc>/language/packages.html</loc>
+  </url>
+  
+  <url>
+    <loc>/language/setup.html</loc>
+  </url>
+  
+  <url>
+    <loc>/faq.html</loc>
+  </url>
+  
+  <url>
+    <loc>/language/types.html</loc>
+  </url>
+  
+  <url>
+    <loc>/language/arrays.html</loc>
+  </url>
+  
+  <url>
+    <loc>/language/functions.html</loc>
+  </url>
+  
+  <url>
+    <loc>/platforms/xdk110.html</loc>
+  </url>
+  
+  <url>
+    <loc>/language/foreignfunctioninterface.html</loc>
+  </url>
+  
+  <url>
+    <loc>/language/events.html</loc>
+  </url>
+  
+  <url>
+    <loc>/language/exceptions.html</loc>
+  </url>
+  
+  <url>
+    <loc>/download.html</loc>
+    <lastmod>2017-07-18T14:18:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories.html</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/concepts.html</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/concepts/</loc>
+  </url>
+  
+  <url>
+    <loc>/getting-started.html</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/language.html</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/platforms.html</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags.html</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2017-07-18T14:18:49+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+</urlset>

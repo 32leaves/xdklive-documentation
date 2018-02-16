@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Concepts on XDK LIVE</title>
+    <link>/concepts.html</link>
+    <description>Recent content in Concepts on XDK LIVE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Bosch Connected Devices and Solutions GmbH</copyright>
+    
+	<atom:link href="/concepts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Concepts</title>
+      <link>/concepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/concepts/</guid>
+      <description>Platform TLDR; A platform is the thing you are writing programs for.
+Platforms describe the thing that you are writing software for; this thing is literally the piece of hardware and software platform running on it. You do not have create that platform. Platforms consist of something you can configure (configuration items), something you can read from at runtime (modalities), something you can send and receive data through (signals) and something you can react to (events).</description>
+    </item>
+    
+  </channel>
+</rss>
